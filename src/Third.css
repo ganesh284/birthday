@@ -1,0 +1,23 @@
+.third-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black; /* Ensures the background is filled */
+  position: relative;
+  background-color: black;
+}
+
+.video1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0%;
+}
+
+.background-video {
+  width: 300px; /* Adjust width for smaller size */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Optional: Add rounded corners */
+  object-fit: cover; /* Ensures video fills the container */
+}

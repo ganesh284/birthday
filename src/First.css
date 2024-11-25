@@ -1,0 +1,29 @@
+.first-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:black; /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative; /* Needed for absolute positioning of the button */
+}
+
+.next-button {
+  position: absolute; /* Allow placement in bottom-right */
+  bottom: 20px; /* Distance from bottom */
+  right: 20px; /* Distance from right */
+  padding: 15px 30px;
+  font-size: 18px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.next-button:hover {
+  background-color: #0056b3;
+}
